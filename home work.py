@@ -226,6 +226,53 @@
 #
 # print(a)
 
+#5
+dict_1 = {
+    "name": "George",
+    "family_name": "Habchi",
+    "name": "George",
+    "family_name": "Habchi"
+          }
+dict_2 ={
+    "name": "Kevin",
+    "email": "habchi_work@gmail.com",
+    "address": "California",
+         }
+
+###a
+# res = [key for key in dict_1 if key in dict_2]
+# print(res)
+###b
+# res = [key for key in dict_1 if key not in dict_2]
+# print(res)
+
+###c смотрела разбор дз - сама не сообразила, откровенно :)
+
+# dict_3 = {}
+#
+# for key in dict_1.keys():
+#    if key not in dict_2:
+#     dict_3[key] = dict_1[key]
+# print(dict_3)
+
+
+# dict_3={key: dict_1[key] for key in dict_1 if key not in dict_2}
+# print(dict_3)
+
+###d
+# for key in dict_1:
+#     if key not in dict_2:
+#         dict_2[key] = dict_1[key]
+# # print(dict_2)
+#     elif key in dict_2:
+#         dict_2[key] = [dict_1[key], dict_2[key]]
+# print(dict_2)
+
+
+
+
+
+
 
 
 
